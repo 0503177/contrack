@@ -1,0 +1,10 @@
+body{
+    background-color: blue;
+}
+
+#logo{
+    padding-top: 1000px;
+    max-width: 20%;
+    max-height: 20%;
+    scale: auto;
+}
