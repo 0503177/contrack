@@ -35,13 +35,12 @@ body{
     justify-content: right;
 }
 
+.searchResult{
+    border-radius: 10px;
+    border-style: solid;
+}
+
 [type="checkbox"]
 {
     vertical-align:middle;
-}
-
-.columnStyle{
-    border: black;
-    border-style: solid;
-    border-radius: 10px;
 }

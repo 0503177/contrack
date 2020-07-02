@@ -12,6 +12,56 @@
         <%- partial('partials/navbar') %>
     </div>
 
-    <h1>Contracts</h1>
+    <h4 class="centreMe giveMeSpace">New / Update Contract</h4>
+
+    <!-- User Form -->
+    <form id="contractForm" action="">
+
+        <div class="row justify-content-center">
+            <div class="col-4">
+
+                <label for="employeeID">Employee Number</label>
+                <input type="text" id="employeeID" name="employeeID" class="form-control">
+
+                <label for="contractType">Contract Type</label>
+                <select name="contractType" id="contractType" class="form-control">
+                    <option value="con1">Full Time Permanent</option>
+                    <option value="con2">Part Time Permanent</option>
+                    <option value="con3">Full Time Fixed Length</option>
+                    <option value="con4">Part Time Fixed Length</option>
+                </select>
+
+                <label for="dateOfBirth">Contract Start Date</label>
+                <input type="date" id="dateOfBirth" name="dateOfBirth" class="form-control">
+
+                <label for="contractLength">Contract Length (months)</label>
+                <input type="number" id="contractLength" name="contractLength" class="form-control">
+
+            </div>
+
+            <div class="col-4">
+                <div>
+                    <label for="grade">Grade</label>
+                    <input type="number" id="grade" name="grade" class="form-control">
+                </div>
+
+                <label for="salary">Salary (£)</label>
+                <input type="number" id="salary" name="salary" class="form-control">
+
+                <label for="annualLeave">Annual Leave (days)</label>
+                <input type="number" id="annualLeave" name="annualLeave" class="form-control">
+
+                <label for="contractPDF">PDF Contract</label>
+                <input type="file" id="contractPDF" name="contractPDF" accept="image/pdf" class="form-control">
+
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <a href="mainmenu" class="btn btn-primary giveMeSpace">Save</a>
+            <a href="mainmenu" class="btn btn-warning giveMeSpace">Cancel</a>
+        </div>
+        </div>
+    </form>
 
 </body>
