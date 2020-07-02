@@ -31,7 +31,17 @@ body{
     margin-right: 15px;
 }
 
+#navbarSearchBox{
+    justify-content: right;
+}
+
 [type="checkbox"]
 {
     vertical-align:middle;
+}
+
+.columnStyle{
+    border: black;
+    border-style: solid;
+    border-radius: 10px;
 }

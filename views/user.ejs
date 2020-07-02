@@ -17,68 +17,79 @@
     <!-- User Form -->
     <form id="userForm" action="">
 
-        <label for="employeeID">Employee Number</label>
-        <input type="text" id="employeeID" name="employeeID" class="form-control">
+        <div class="row justify-content-center">
+            <div class="col-4">
 
-        <label for="firstName">First Name</label>
-        <input type="text" id="firstName" name="firstName" class="form-control">
+                <label for="employeeID">Employee Number</label>
+                <input type="text" id="employeeID" name="employeeID" class="form-control">
 
-        <label for="middleName">Middle Name(s)</label>
-        <input type="text" id="middleName" name="middleName" class="form-control">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" class="form-control">
 
-        <label for="surname">Surname</label>
-        <input type="text" id="surname" name="surname" class="form-control">
+                <label for="middleName">Middle Name(s)</label>
+                <input type="text" id="middleName" name="middleName" class="form-control">
 
-        <label for="dateOfBirth">Date of Birth</label>
-        <input type="date" id="dateOfBirth" name="dateOfBirth" class="form-control">
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" name="surname" class="form-control">
 
-        <label for="picture">Employee Picture</label>
-        <input type="file" id="picture" name="picture" accept="image/png, image/jpeg" class="form-control">
+                <label for="dateOfBirth">Date of Birth</label>
+                <input type="date" id="dateOfBirth" name="dateOfBirth" class="form-control">
 
-        <label for="activeContract">Active Contract</label>
-        <select name="activeContract" id="activeContract">
-            <option value="con1">Con1</option>
-            <option value="con2">Con2</option>
-            <option value="con3">Con3</option>
-          </select>
+                <label for="picture">Employee Picture</label>
+                <input type="file" id="picture" name="picture" accept="image/png, image/jpeg" class="form-control">
 
-          <div>
-        <label for="homeAddress1">Address Line 1</label>
-        <input type="text" id="homeAddress1" name="homeAddress1" class="form-control">
-    </div>
+                <label for="activeContract">Active Contract</label>
+                <select name="activeContract" id="activeContract" class="giveMeSpace">
+                    <option value="con1">Con1</option>
+                    <option value="con2">Con2</option>
+                    <option value="con3">Con3</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <div>
+                    <label for="homeAddress1">Address Line 1</label>
+                    <input type="text" id="homeAddress1" name="homeAddress1" class="form-control">
+                </div>
 
-        <label for="homeAddress2">Address Line 2</label>
-        <input type="text" id="homeAddress2" name="homeAddress2" class="form-control">
+                <label for="homeAddress2">Address Line 2</label>
+                <input type="text" id="homeAddress2" name="homeAddress2" class="form-control">
 
-        <label for="homeAddress3">Address Line 3</label>
-        <input type="text" id="homeAddress3" name="homeAddress3" class="form-control">
+                <label for="homeAddress3">Address Line 3</label>
+                <input type="text" id="homeAddress3" name="homeAddress3" class="form-control">
 
-        <label for="homeAddress4">Address Line 4</label>
-        <input type="text" id="homeAddress4" name="homeAddress4" class="form-control">
+                <label for="homeAddress4">Address Line 4</label>
+                <input type="text" id="homeAddress4" name="homeAddress4" class="form-control">
 
-        <label for="homePostcode">Home Postcode</label>
-        <input type="text" id="homePostcode" name="homePostcode" class="form-control">
+                <label for="homePostcode">Home Postcode</label>
+                <input type="text" id="homePostcode" name="homePostcode" class="form-control">
 
-        <div>
-            <label for="isFirstAider" style="word-wrap:break-word">
-                <input id="isFirstAider" type="checkbox" />Employee is a registered first aider
-            </label>
+                <div>
+                    <label for="isFirstAider" style="word-wrap:break-word">
+                        <input id="isFirstAider" type="checkbox" />Employee is a registered first aider
+                    </label>
+                </div>
+
+                <div>
+                    <label for="isMentalFirstAider" style="word-wrap:break-word">
+                        <input id="isMentalFirstAider" type="checkbox" />Employee is a registered mental health first
+                        aider
+                    </label>
+                </div>
+
+                <div>
+                    <label for="isFireWarden" style="word-wrap:break-word">
+                        <input id="isFireWarden" type="checkbox" />Employee is a registered fire warden
+                    </label>
+                </div>
+
+            </div>
         </div>
 
-        <div>
-            <label for="isMentalFirstAider" style="word-wrap:break-word">
-                <input id="isMentalFirstAider" type="checkbox" />Employee is a registered mental health first aider
-            </label>
+        <div class="row justify-content-center">
+            <a href="mainmenu" class="btn btn-primary giveMeSpace">Save</a>
+            <a href="mainmenu" class="btn btn-warning giveMeSpace">Cancel</a>
         </div>
-
-        <div>
-            <label for="isFireWarden" style="word-wrap:break-word">
-                <input id="isFireWarden" type="checkbox" />Employee is a registered fire warden
-            </label>
         </div>
-
-        <a href="mainmenu" class="btn btn-primary giveMeSpace">Save</a>
-        <a href="mainmenu" class="btn btn-warning giveMeSpace">Cancel</a>
     </form>
 
 </body>
